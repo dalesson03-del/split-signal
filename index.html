@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Split Signal</title>
+    <meta name="description" content="A co-op game where every phone holds a different piece of the puzzle. Talk fast and save the satellite. 2 to 6 players, no login." />
+    <meta name="theme-color" content="#141b26" />
+    <meta property="og:title" content="Split Signal" />
+    <meta property="og:description" content="Every phone holds a different piece. Nobody can solve it alone. Save the satellite before its orbit decays." />
+    <meta property="og:image" content="assets/cover.png" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js" defer onerror="this.remove();var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/peerjs@1.5.4/dist/peerjs.min.js';document.head.appendChild(s)"></script>
+    <script type="module" src="js/app.js"></script>
+  </head>
+  <body>
+    <main id="app" aria-live="polite"><p class="boot">Acquiring signal…</p></main>
+    <div id="fx" class="fx" role="alert"></div>
+    <div id="toast" role="status"></div>
+    <dialog id="sheet"></dialog>
+    <noscript>Split Signal needs JavaScript turned on.</noscript>
+  </body>
+</html>
